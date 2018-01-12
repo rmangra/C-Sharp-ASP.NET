@@ -14,6 +14,9 @@ namespace Vidly_2.Controllers
         {
             var movie = new Movie() { Name = "Shrek!" };
 
+            var viewResult = new ViewResult();
+            viewResult.ViewData.Model
+
             return View(movie);
             // return Content("Hello World!");
             // return HttpNotFound();
