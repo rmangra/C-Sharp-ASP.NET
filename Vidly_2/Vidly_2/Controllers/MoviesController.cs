@@ -22,7 +22,12 @@ namespace Vidly_2.Controllers
                       
         }
 
-        public ActionResult Edit(int id)
+        public ActionResult ByReleaseDate(int year, int month)
+        {
+            return Content(year + "/" + month);
+        }
+
+        /*public ActionResult Edit(int id)
         {
             return Content("id=" + id);
         }
@@ -38,5 +43,6 @@ namespace Vidly_2.Controllers
 
             return Content(String.Format("pageIndex={0}&sortBy={1}", pageIndex, sortBy));
         }
+        */
     }
 }
