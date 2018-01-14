@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Vidly_2.Models;
-using Vidly_2.ViewModels;
+//using Vidly_2.ViewModels;
 
 namespace Vidly_2.Controllers
 {
@@ -26,7 +26,7 @@ namespace Vidly_2.Controllers
             };
         }
 
-        // GET: Movies/Random
+        /*// GET: Movies/Random
         public ActionResult Random()
         {
             var movie = new Movie() { Name = "Shrek!" };
@@ -44,5 +44,6 @@ namespace Vidly_2.Controllers
 
             return View(viewModel);
         }
+        */
     }
 }
